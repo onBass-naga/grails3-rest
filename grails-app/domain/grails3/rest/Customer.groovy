@@ -3,7 +3,7 @@ package grails3.rest
 import grails.rest.Resource
 
 @Resource
-class Customer implements SnakeCase {
+class Customer {
     String firstName
     String lastName
     String email
